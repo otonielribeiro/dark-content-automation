@@ -1,6 +1,7 @@
 # Credenciais e chaves de API
 credentials/
-*.json
+.env
+#*.json
 !data/casos_policiais.json
 !data/casos_usados.json
 

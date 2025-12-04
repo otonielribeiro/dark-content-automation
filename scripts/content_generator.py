@@ -22,7 +22,12 @@ class ContentGenerator:
     """Gerador automatizado de roteiros para casos policiais"""
     
     def __init__(self):
-        self.client = OpenAI()  # API key já configurada no ambiente
+        # Configura OpenRouter API
+        api_key = os.getenv("OPENROUTER_API_KEY") or os.getenv("OPENAI_API_KEY")
+        self.client = OpenAI(
+            base_url="https://openrouter.ai/api/v1",
+            api_key=api_key
+        )
         self.cases_db = self.load_cases_database()
         
     def load_cases_database(self):
@@ -92,7 +97,7 @@ REQUISITOS:
 ROTEIRO:"""
 
         response = self.client.chat.completions.create(
-            model="gpt-4.1-mini",
+            model="openai/gpt-4o-mini",  # Modelo via OpenRouter
             messages=[
                 {"role": "system", "content": "Você é um roteirista especializado em documentários criminais dark e cinematográficos."},
                 {"role": "user", "content": prompt}
@@ -131,7 +136,7 @@ REQUISITOS para cada prompt:
 Retorne APENAS os 4 prompts, um por linha, numerados."""
 
         response = self.client.chat.completions.create(
-            model="gpt-4.1-mini",
+            model="openai/gpt-4o-mini",  # Modelo via OpenRouter
             messages=[
                 {"role": "user", "content": prompt}
             ],
@@ -166,7 +171,7 @@ DESCRIÇÃO: [sua descrição]
 HASHTAGS: #tag1 #tag2 #tag3..."""
 
         response = self.client.chat.completions.create(
-            model="gpt-4.1-mini",
+            model="openai/gpt-4o-mini",  # Modelo via OpenRouter
             messages=[
                 {"role": "user", "content": prompt}
             ],

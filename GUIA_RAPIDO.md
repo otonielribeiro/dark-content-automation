@@ -2,13 +2,19 @@
 
 ## ⚡ Começando em 5 Passos
 
-### 1️⃣ Configure a API do ElevenLabs
+### 1️⃣ Configure as APIs
 
 ```bash
+# OpenRouter (para geração de roteiros)
+export OPENROUTER_API_KEY='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'
+
+# ElevenLabs (para narração)
 export ELEVENLABS_API_KEY='sua_chave_aqui'
 ```
 
-💡 **Obtenha sua chave em**: [elevenlabs.io](https://elevenlabs.io)
+💡 **Obtenha suas chaves em**:
+- OpenRouter: [openrouter.ai/keys](https://openrouter.ai/keys)
+- ElevenLabs: [elevenlabs.io](https://elevenlabs.io)
 
 ---
 
@@ -73,7 +79,7 @@ pkill -f run_scheduler.py
 
 | Item | Custo por Vídeo | Custo Mensal (15 vídeos) |
 |------|----------------|-------------------------|
-| OpenAI (GPT-4.1-mini) | ~$0.01 | ~$0.15 |
+| OpenRouter (GPT-4o-mini) | ~$0.01 | ~$0.15 |
 | ElevenLabs | ~$0.30 | ~$4.50 |
 | **TOTAL** | **~$0.31** | **~$4.65** |
 
@@ -94,6 +100,11 @@ pkill -f run_scheduler.py
 ---
 
 ## 🆘 Problemas Comuns
+
+### "OPENROUTER_API_KEY não configurada"
+```bash
+export OPENROUTER_API_KEY='sk-or-v1-...'
+```
 
 ### "ELEVENLABS_API_KEY não configurada"
 ```bash

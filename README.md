@@ -15,7 +15,7 @@ O conteúdo é inspirado no estilo "dark content" de canais como "Life Laps", ut
 O sistema é modular e segue o seguinte fluxo:
 
 1.  **Seleção do Caso**: Um caso policial é selecionado aleatoriamente do banco de dados (`data/casos_policiais.json`).
-2.  **Geração de Roteiro**: A API da OpenAI (GPT-4.1-mini) cria um roteiro cinematográfico para o caso.
+2.  **Geração de Roteiro**: A API do OpenRouter (GPT-4o-mini) cria um roteiro cinematográfico para o caso.
 3.  **Geração de Narração**: A API da ElevenLabs converte o roteiro em um áudio de narração com voz natural.
 4.  **Compilação do Vídeo**: O FFmpeg combina um fundo animado, a narração, uma música de fundo (opcional) e o título para criar o vídeo final no formato 9:16.
 5.  **Upload (Opcional)**: O vídeo é enviado para o YouTube como "Privado" para revisão, utilizando a API do YouTube.
@@ -48,9 +48,19 @@ O sistema é modular e segue o seguinte fluxo:
 
 Antes de executar o sistema, você precisa configurar as chaves de API e credenciais.
 
-### 4.1. Chave da OpenAI
+### 4.1. Chave do OpenRouter
 
-O sistema já está configurado para usar a chave `OPENAI_API_KEY` disponível no ambiente. Nenhuma ação é necessária.
+O sistema usa o **OpenRouter** para acessar modelos de IA com preços competitivos.
+
+1.  Acesse [openrouter.ai/keys](https://openrouter.ai/keys) e crie uma conta.
+2.  Gere uma nova API key.
+3.  No terminal, configure a chave como uma variável de ambiente:
+
+    ```bash
+    export OPENROUTER_API_KEY='sk-or-v1-sua_chave_aqui'
+    ```
+
+    **Importante**: Você precisa executar este comando toda vez que iniciar uma nova sessão de terminal, ou adicioná-lo ao seu arquivo `~/.bashrc` para torná-lo permanente.
 
 ### 4.2. Chave da ElevenLabs
 

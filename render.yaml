@@ -6,7 +6,7 @@ services:
     dockerCommand: python3 run_scheduler.py
     
     envVars:
-      - key: OPENAI_API_KEY
+      - key: OPENROUTER_API_KEY
         sync: false
       - key: ELEVENLABS_API_KEY
         sync: false
