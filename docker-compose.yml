@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  dark-content-automation:
+    build: .
+    container_name: dark-content-automation
+    restart: unless-stopped
+    
+    environment:
+      # Configure suas chaves de API aqui ou via arquivo .env
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - ELEVENLABS_API_KEY=${ELEVENLABS_API_KEY}
+    
+    volumes:
+      # Persiste dados entre reinicializações
+      - ./output:/app/output
+      - ./logs:/app/logs
+      - ./data:/app/data
+      - ./credentials:/app/credentials
+      - ./assets:/app/assets
+    
+    # Executa agendador em loop
+    command: python3 run_scheduler.py
+    
+    # Logs
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"

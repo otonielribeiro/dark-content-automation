@@ -1,0 +1,22 @@
+services:
+  - type: worker
+    name: dark-content-automation
+    env: docker
+    dockerfilePath: ./Dockerfile
+    dockerCommand: python3 run_scheduler.py
+    
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: ELEVENLABS_API_KEY
+        sync: false
+      - key: PYTHONUNBUFFERED
+        value: "1"
+    
+    autoDeploy: true
+    
+    # Plano gratuito
+    plan: starter
+    
+    # Região (escolha a mais próxima)
+    region: oregon
