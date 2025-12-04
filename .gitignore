@@ -1,0 +1,26 @@
+# Credenciais e chaves de API
+credentials/
+*.json
+!data/casos_policiais.json
+!data/casos_usados.json
+
+# Arquivos de saída
+output/
+logs/
+*.mp3
+*.mp4
+*.wav
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# Sistema
+.DS_Store
+*.log
+nohup.out

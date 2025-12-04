@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "titulo": "O Caso Zodíaco",
+    "resumo": "Serial killer que aterrorizou a Califórnia entre 1968 e 1969, enviando cartas cifradas para jornais e nunca foi capturado.",
+    "data": "1968-1969",
+    "local": "Califórnia, EUA",
+    "categoria": "serial_killer"
+  },
+  {
+    "id": 2,
+    "titulo": "O Desaparecimento de Madeleine McCann",
+    "resumo": "Menina britânica de 3 anos desapareceu durante férias em Portugal em 2007, caso nunca foi solucionado.",
+    "data": "03/05/2007",
+    "local": "Praia da Luz, Portugal",
+    "categoria": "desaparecimento"
+  },
+  {
+    "id": 3,
+    "titulo": "O Maníaco do Parque",
+    "resumo": "Francisco de Assis Pereira atacou e matou diversas mulheres no Parque do Estado em São Paulo entre 1998.",
+    "data": "1998",
+    "local": "São Paulo, Brasil",
+    "categoria": "serial_killer"
+  },
+  {
+    "id": 4,
+    "titulo": "Black Dahlia",
+    "resumo": "Elizabeth Short foi encontrada brutalmente assassinada e mutilada em Los Angeles em 1947. O caso nunca foi resolvido.",
+    "data": "15/01/1947",
+    "local": "Los Angeles, EUA",
+    "categoria": "homicidio"
+  },
+  {
+    "id": 5,
+    "titulo": "O Caso Richthofen",
+    "resumo": "Suzane von Richthofen planejou e executou o assassinato dos próprios pais com ajuda do namorado em 2002.",
+    "data": "31/10/2002",
+    "local": "São Paulo, Brasil",
+    "categoria": "parricidio"
+  },
+  {
+    "id": 6,
+    "titulo": "Jack, o Estripador",
+    "resumo": "Serial killer não identificado que matou pelo menos cinco mulheres no distrito de Whitechapel, Londres, em 1888.",
+    "data": "1888",
+    "local": "Londres, Inglaterra",
+    "categoria": "serial_killer"
+  },
+  {
+    "id": 7,
+    "titulo": "O Caso Elisa Samudio",
+    "resumo": "Modelo foi assassinada pelo goleiro Bruno e comparsa em 2010. Corpo nunca foi encontrado.",
+    "data": "Junho/2010",
+    "local": "Minas Gerais, Brasil",
+    "categoria": "homicidio"
+  },
+  {
+    "id": 8,
+    "titulo": "O Assassinato de JonBenét Ramsey",
+    "resumo": "Menina de 6 anos, rainha de beleza infantil, encontrada morta em sua casa no dia de Natal de 1996.",
+    "data": "26/12/1996",
+    "local": "Boulder, Colorado, EUA",
+    "categoria": "homicidio"
+  },
+  {
+    "id": 9,
+    "titulo": "O Caso Nardoni",
+    "resumo": "Isabella Nardoni, de 5 anos, foi jogada do 6º andar por seu pai e madrasta em 2008.",
+    "data": "29/03/2008",
+    "local": "São Paulo, Brasil",
+    "categoria": "infanticidio"
+  },
+  {
+    "id": 10,
+    "titulo": "D.B. Cooper",
+    "resumo": "Homem sequestrou avião em 1971, recebeu resgate de $200 mil e pulou de paraquedas, nunca foi encontrado.",
+    "data": "24/11/1971",
+    "local": "Noroeste dos EUA",
+    "categoria": "sequestro"
+  },
+  {
+    "id": 11,
+    "titulo": "O Caso von Richthofen - A Verdade",
+    "resumo": "Detalhes da investigação que revelou o planejamento meticuloso do crime por Suzane e os irmãos Cravinhos.",
+    "data": "2002-2006",
+    "local": "São Paulo, Brasil",
+    "categoria": "investigacao"
+  },
+  {
+    "id": 12,
+    "titulo": "Ted Bundy",
+    "resumo": "Um dos serial killers mais famosos da história, confessou 30 homicídios de mulheres jovens nos anos 70.",
+    "data": "1974-1978",
+    "local": "EUA (vários estados)",
+    "categoria": "serial_killer"
+  },
+  {
+    "id": 13,
+    "titulo": "O Caso PC Farias",
+    "resumo": "Ex-tesoureiro de campanha presidencial encontrado morto ao lado da namorada em circunstâncias misteriosas.",
+    "data": "23/06/1996",
+    "local": "Alagoas, Brasil",
+    "categoria": "misterio"
+  },
+  {
+    "id": 14,
+    "titulo": "O Assassinato de Tupac Shakur",
+    "resumo": "Rapper foi baleado em Las Vegas em 1996 em um drive-by shooting que nunca foi solucionado.",
+    "data": "07/09/1996",
+    "local": "Las Vegas, EUA",
+    "categoria": "homicidio"
+  },
+  {
+    "id": 15,
+    "titulo": "O Caso Evandro",
+    "resumo": "Menino de 6 anos desapareceu em Guaratuba em 1992, caso envolveu acusações de ritual satânico.",
+    "data": "06/04/1992",
+    "local": "Guaratuba, Paraná, Brasil",
+    "categoria": "desaparecimento"
+  },
+  {
+    "id": 16,
+    "titulo": "O Massacre de Columbine",
+    "resumo": "Dois estudantes mataram 13 pessoas e feriram 24 em escola secundária no Colorado em 1999.",
+    "data": "20/04/1999",
+    "local": "Littleton, Colorado, EUA",
+    "categoria": "massacre"
+  },
+  {
+    "id": 17,
+    "titulo": "O Caso Pedrinho Matador",
+    "resumo": "Pedro Rodrigues Filho matou mais de 100 pessoas, incluindo seu próprio pai, entre 1967 e 2003.",
+    "data": "1967-2003",
+    "local": "Brasil (vários estados)",
+    "categoria": "serial_killer"
+  },
+  {
+    "id": 18,
+    "titulo": "O Triângulo das Bermudas Criminal",
+    "resumo": "Série de desaparecimentos inexplicáveis de pessoas em região específica da Flórida nos anos 80.",
+    "data": "Anos 1980",
+    "local": "Flórida, EUA",
+    "categoria": "desaparecimento"
+  },
+  {
+    "id": 19,
+    "titulo": "O Caso Daniella Perez",
+    "resumo": "Atriz foi brutalmente assassinada por colega de trabalho e sua esposa em 1992.",
+    "data": "28/12/1992",
+    "local": "Rio de Janeiro, Brasil",
+    "categoria": "homicidio"
+  },
+  {
+    "id": 20,
+    "titulo": "O Assassinato de Olof Palme",
+    "resumo": "Primeiro-ministro sueco foi assassinado a tiros em Estocolmo em 1986, crime nunca solucionado.",
+    "data": "28/02/1986",
+    "local": "Estocolmo, Suécia",
+    "categoria": "homicidio"
+  },
+  {
+    "id": 21,
+    "titulo": "O Caso Yoki",
+    "resumo": "Empresária Noemi Gerbelli foi envenenada pelo marido com arsênico em 2010.",
+    "data": "2010",
+    "local": "São Paulo, Brasil",
+    "categoria": "envenenamento"
+  },
+  {
+    "id": 22,
+    "titulo": "O Vampiro de Niterói",
+    "resumo": "Marcelo Costa de Andrade matou 14 meninos em Niterói, praticando necrofilia e canibalismo.",
+    "data": "1991",
+    "local": "Niterói, Rio de Janeiro, Brasil",
+    "categoria": "serial_killer"
+  },
+  {
+    "id": 23,
+    "titulo": "O Caso Lindbergh",
+    "resumo": "Filho do aviador Charles Lindbergh foi sequestrado e morto em 1932, crime do século.",
+    "data": "01/03/1932",
+    "local": "Nova Jersey, EUA",
+    "categoria": "sequestro"
+  },
+  {
+    "id": 24,
+    "titulo": "O Maníaco de Goiânia",
+    "resumo": "Tiago Henrique Gomes da Rocha matou 39 pessoas em série de crimes entre 2011 e 2014.",
+    "data": "2011-2014",
+    "local": "Goiânia, Brasil",
+    "categoria": "serial_killer"
+  },
+  {
+    "id": 25,
+    "titulo": "O Caso Elize Matsunaga",
+    "resumo": "Elize matou e esquartejou o marido, empresário Marcos Matsunaga, em 2012.",
+    "data": "19/05/2012",
+    "local": "São Paulo, Brasil",
+    "categoria": "homicidio"
+  }
+]
